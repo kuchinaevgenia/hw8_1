@@ -9,3 +9,8 @@ const arrDividedBy100 = arr.map((item) => item / 100);
 console.log(arrDividedBy100);
 
 arr.forEach((item) => console.log(item ** 3));
+
+const sqr100In = arr.findIndex((item) => item ** 2 === 100);
+sqr100In === -1
+  ? console.log("масив не містить такого числа")
+  : arr.splice(sqr100In, 1);
