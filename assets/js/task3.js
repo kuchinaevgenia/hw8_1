@@ -14,3 +14,5 @@ const sqr100In = arr.findIndex((item) => item ** 2 === 100);
 sqr100In === -1
   ? console.log("масив не містить такого числа")
   : arr.splice(sqr100In, 1);
+
+console.log(arr.find((item) => item > 50));
