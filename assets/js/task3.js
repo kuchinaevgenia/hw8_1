@@ -7,3 +7,5 @@ console.log(arrNotNull);
 
 const arrDividedBy100 = arr.map((item) => item / 100);
 console.log(arrDividedBy100);
+
+arr.forEach((item) => console.log(item ** 3));
