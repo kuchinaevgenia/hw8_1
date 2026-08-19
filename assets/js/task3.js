@@ -5,3 +5,5 @@ const arr = [
 const arrNotNull = arr.filter((item) => item !== 0);
 console.log(arrNotNull);
 
+const arrDividedBy100 = arr.map((item) => item / 100);
+console.log(arrDividedBy100);
