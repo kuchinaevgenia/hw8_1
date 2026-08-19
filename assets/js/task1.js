@@ -6,4 +6,10 @@ console.log(
 
 nums.unshift(+prompt("Додайте перший елемент"));
 nums.push(+prompt("Додайте останній елемент"));
-console.log(nums)
+console.log(nums);
+
+const numsCopy1 = Array.from(nums);
+const numsCopy2 = [...nums];
+
+const nums2 = nums.slice(0, 4);
+console.log(nums2);
