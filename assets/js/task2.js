@@ -9,3 +9,9 @@ for (let i = 0; i < arr.length; i++) {
   }
 }
 console.log(evenInArr);
+
+let dob = 1;
+for (let i = 0; i < arr.length; i++) {
+  dob *= arr[i];
+}
+console.log(dob);
