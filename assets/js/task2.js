@@ -3,10 +3,8 @@ const arr = [
 ];
 
 const evenInArr = [];
-for (let i = 0; i < arr.length; i++) {
-  if (i % 2 === 0) {
-    evenInArr.push(arr[i]);
-  }
+for (let i = 0; i < arr.length; i += 2) {
+  evenInArr.push(arr[i]);
 }
 console.log(evenInArr);
 
